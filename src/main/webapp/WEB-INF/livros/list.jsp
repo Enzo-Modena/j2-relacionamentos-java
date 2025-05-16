@@ -32,7 +32,7 @@
                         </td>
                         <td>
                             <a href="/livros/update/${l.id}" class="btn-primary">Editar</a>
-                            <a href="/livros/update/${l.id}" class="btn-danger">Remover</a>
+                            <a href="/livros/delete/${l.id}" class="btn-danger">Remover</a>
                         </td>
                     </tr>
                 </c:forEach>
